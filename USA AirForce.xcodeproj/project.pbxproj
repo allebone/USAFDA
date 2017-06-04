@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A7B799C0D5309E7A1315B5A /* Pods_USA_AirForce.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53589A07E508A6D98B4007D5 /* Pods_USA_AirForce.framework */; };
+		8541D9591ED2E11400F4F119 /* uniform.json in Resources */ = {isa = PBXBuildFile; fileRef = 8541D9581ED2E11400F4F119 /* uniform.json */; };
+		8541D95B1ED2FA9400F4F119 /* AppSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8541D95A1ED2FA9400F4F119 /* AppSession.swift */; };
+		8541D95D1ED3014600F4F119 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8541D95C1ED3014600F4F119 /* InfoViewController.swift */; };
+		8541D95F1ED301FB00F4F119 /* ImageHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8541D95E1ED301FB00F4F119 /* ImageHeader.xib */; };
+		8541D9611ED3026300F4F119 /* ImageDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8541D9601ED3026300F4F119 /* ImageDetailViewController.swift */; };
+		8541D9631ED3036F00F4F119 /* ImageDetail.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8541D9621ED3036F00F4F119 /* ImageDetail.xib */; };
+		8541D9651ED3038500F4F119 /* ImageHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8541D9641ED3038500F4F119 /* ImageHeader.swift */; };
+		8541D9671ED3038E00F4F119 /* ImageDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8541D9661ED3038E00F4F119 /* ImageDetail.swift */; };
+		8546381B1ED211FB003522A7 /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8546381A1ED211FB003522A7 /* ProductModel.swift */; };
+		854655371ED18AEE00DB6E85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854655361ED18AEE00DB6E85 /* AppDelegate.swift */; };
+		854655391ED18AEE00DB6E85 /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854655381ED18AEE00DB6E85 /* LaunchViewController.swift */; };
+		8546553C1ED18AEE00DB6E85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8546553A1ED18AEE00DB6E85 /* Main.storyboard */; };
+		8546553E1ED18AEE00DB6E85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8546553D1ED18AEE00DB6E85 /* Assets.xcassets */; };
+		854655411ED18AEE00DB6E85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8546553F1ED18AEE00DB6E85 /* LaunchScreen.storyboard */; };
+		8546554C1ED191F800DB6E85 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8546554B1ED191F800DB6E85 /* Constant.swift */; };
+		8546554E1ED192AB00DB6E85 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8546554D1ED192AB00DB6E85 /* MenuViewController.swift */; };
+		854655501ED192B200DB6E85 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8546554F1ED192B200DB6E85 /* HomeViewController.swift */; };
+		854655521ED1B95500DB6E85 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854655511ED1B95500DB6E85 /* DetailViewController.swift */; };
+		854655551ED1BC6500DB6E85 /* ImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 854655541ED1BC6500DB6E85 /* ImageCell.xib */; };
+		854655571ED1C33300DB6E85 /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854655561ED1C33300DB6E85 /* ImageCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		53589A07E508A6D98B4007D5 /* Pods_USA_AirForce.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_USA_AirForce.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		537F7EEB258654529FAE9E8F /* Pods-USA AirForce.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-USA AirForce.release.xcconfig"; path = "Pods/Target Support Files/Pods-USA AirForce/Pods-USA AirForce.release.xcconfig"; sourceTree = "<group>"; };
+		8541D9581ED2E11400F4F119 /* uniform.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = uniform.json; sourceTree = "<group>"; };
+		8541D95A1ED2FA9400F4F119 /* AppSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppSession.swift; sourceTree = "<group>"; };
+		8541D95C1ED3014600F4F119 /* InfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		8541D95E1ED301FB00F4F119 /* ImageHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageHeader.xib; sourceTree = "<group>"; };
+		8541D9601ED3026300F4F119 /* ImageDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageDetailViewController.swift; sourceTree = "<group>"; };
+		8541D9621ED3036F00F4F119 /* ImageDetail.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageDetail.xib; sourceTree = "<group>"; };
+		8541D9641ED3038500F4F119 /* ImageHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageHeader.swift; sourceTree = "<group>"; };
+		8541D9661ED3038E00F4F119 /* ImageDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageDetail.swift; sourceTree = "<group>"; };
+		8546381A1ED211FB003522A7 /* ProductModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
+		854655331ED18AEE00DB6E85 /* USA AirForce.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "USA AirForce.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		854655361ED18AEE00DB6E85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		854655381ED18AEE00DB6E85 /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
+		8546553B1ED18AEE00DB6E85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8546553D1ED18AEE00DB6E85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		854655401ED18AEE00DB6E85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		854655421ED18AEF00DB6E85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8546554B1ED191F800DB6E85 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		8546554D1ED192AB00DB6E85 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		8546554F1ED192B200DB6E85 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		854655511ED1B95500DB6E85 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		854655541ED1BC6500DB6E85 /* ImageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageCell.xib; sourceTree = "<group>"; };
+		854655561ED1C33300DB6E85 /* ImageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
+		DEC3DD2BD22AD1720FE48C14 /* Pods-USA AirForce.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-USA AirForce.debug.xcconfig"; path = "Pods/Target Support Files/Pods-USA AirForce/Pods-USA AirForce.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		854655301ED18AEE00DB6E85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A7B799C0D5309E7A1315B5A /* Pods_USA_AirForce.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		286E6EB84A0EDBAD87ACF26E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DEC3DD2BD22AD1720FE48C14 /* Pods-USA AirForce.debug.xcconfig */,
+				537F7EEB258654529FAE9E8F /* Pods-USA AirForce.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5C99D615D381B53E9E75683D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53589A07E508A6D98B4007D5 /* Pods_USA_AirForce.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8546552A1ED18AEE00DB6E85 = {
+			isa = PBXGroup;
+			children = (
+				854655351ED18AEE00DB6E85 /* USA AirForce */,
+				854655341ED18AEE00DB6E85 /* Products */,
+				286E6EB84A0EDBAD87ACF26E /* Pods */,
+				5C99D615D381B53E9E75683D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		854655341ED18AEE00DB6E85 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				854655331ED18AEE00DB6E85 /* USA AirForce.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		854655351ED18AEE00DB6E85 /* USA AirForce */ = {
+			isa = PBXGroup;
+			children = (
+				854655531ED1BC5600DB6E85 /* Cells */,
+				8546554A1ED191EF00DB6E85 /* Utils */,
+				854655491ED191E600DB6E85 /* Controllers */,
+				854655361ED18AEE00DB6E85 /* AppDelegate.swift */,
+				8546553A1ED18AEE00DB6E85 /* Main.storyboard */,
+				8541D9581ED2E11400F4F119 /* uniform.json */,
+				854655481ED191DF00DB6E85 /* Supporting Files */,
+			);
+			path = "USA AirForce";
+			sourceTree = "<group>";
+		};
+		854655481ED191DF00DB6E85 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8546553D1ED18AEE00DB6E85 /* Assets.xcassets */,
+				8546553F1ED18AEE00DB6E85 /* LaunchScreen.storyboard */,
+				854655421ED18AEF00DB6E85 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		854655491ED191E600DB6E85 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				854655381ED18AEE00DB6E85 /* LaunchViewController.swift */,
+				8546554D1ED192AB00DB6E85 /* MenuViewController.swift */,
+				8546554F1ED192B200DB6E85 /* HomeViewController.swift */,
+				854655511ED1B95500DB6E85 /* DetailViewController.swift */,
+				8541D95C1ED3014600F4F119 /* InfoViewController.swift */,
+				8541D9601ED3026300F4F119 /* ImageDetailViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		8546554A1ED191EF00DB6E85 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				8546554B1ED191F800DB6E85 /* Constant.swift */,
+				8546381A1ED211FB003522A7 /* ProductModel.swift */,
+				8541D95A1ED2FA9400F4F119 /* AppSession.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		854655531ED1BC5600DB6E85 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				854655541ED1BC6500DB6E85 /* ImageCell.xib */,
+				854655561ED1C33300DB6E85 /* ImageCell.swift */,
+				8541D95E1ED301FB00F4F119 /* ImageHeader.xib */,
+				8541D9641ED3038500F4F119 /* ImageHeader.swift */,
+				8541D9621ED3036F00F4F119 /* ImageDetail.xib */,
+				8541D9661ED3038E00F4F119 /* ImageDetail.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		854655321ED18AEE00DB6E85 /* USA AirForce */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 854655451ED18AEF00DB6E85 /* Build configuration list for PBXNativeTarget "USA AirForce" */;
+			buildPhases = (
+				FC6A051CE3DB034D7AF217A3 /* [CP] Check Pods Manifest.lock */,
+				8546552F1ED18AEE00DB6E85 /* Sources */,
+				854655301ED18AEE00DB6E85 /* Frameworks */,
+				854655311ED18AEE00DB6E85 /* Resources */,
+				11550642ED78D3F8FF744CE3 /* [CP] Embed Pods Frameworks */,
+				7E6515672572233C94E90BE0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "USA AirForce";
+			productName = "USA AirForce";
+			productReference = 854655331ED18AEE00DB6E85 /* USA AirForce.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8546552B1ED18AEE00DB6E85 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = app;
+				TargetAttributes = {
+					854655321ED18AEE00DB6E85 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 3B2NSP94HF;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8546552E1ED18AEE00DB6E85 /* Build configuration list for PBXProject "USA AirForce" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8546552A1ED18AEE00DB6E85;
+			productRefGroup = 854655341ED18AEE00DB6E85 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				854655321ED18AEE00DB6E85 /* USA AirForce */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		854655311ED18AEE00DB6E85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				854655411ED18AEE00DB6E85 /* LaunchScreen.storyboard in Resources */,
+				854655551ED1BC6500DB6E85 /* ImageCell.xib in Resources */,
+				8541D9631ED3036F00F4F119 /* ImageDetail.xib in Resources */,
+				8541D9591ED2E11400F4F119 /* uniform.json in Resources */,
+				8546553E1ED18AEE00DB6E85 /* Assets.xcassets in Resources */,
+				8541D95F1ED301FB00F4F119 /* ImageHeader.xib in Resources */,
+				8546553C1ED18AEE00DB6E85 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		11550642ED78D3F8FF744CE3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-USA AirForce/Pods-USA AirForce-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E6515672572233C94E90BE0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-USA AirForce/Pods-USA AirForce-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC6A051CE3DB034D7AF217A3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8546552F1ED18AEE00DB6E85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8541D95B1ED2FA9400F4F119 /* AppSession.swift in Sources */,
+				854655501ED192B200DB6E85 /* HomeViewController.swift in Sources */,
+				8541D9611ED3026300F4F119 /* ImageDetailViewController.swift in Sources */,
+				854655391ED18AEE00DB6E85 /* LaunchViewController.swift in Sources */,
+				854655371ED18AEE00DB6E85 /* AppDelegate.swift in Sources */,
+				8541D95D1ED3014600F4F119 /* InfoViewController.swift in Sources */,
+				854655521ED1B95500DB6E85 /* DetailViewController.swift in Sources */,
+				8546554C1ED191F800DB6E85 /* Constant.swift in Sources */,
+				8541D9651ED3038500F4F119 /* ImageHeader.swift in Sources */,
+				8541D9671ED3038E00F4F119 /* ImageDetail.swift in Sources */,
+				854655571ED1C33300DB6E85 /* ImageCell.swift in Sources */,
+				8546554E1ED192AB00DB6E85 /* MenuViewController.swift in Sources */,
+				8546381B1ED211FB003522A7 /* ProductModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8546553A1ED18AEE00DB6E85 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8546553B1ED18AEE00DB6E85 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8546553F1ED18AEE00DB6E85 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				854655401ED18AEE00DB6E85 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		854655431ED18AEF00DB6E85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		854655441ED18AEF00DB6E85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		854655461ED18AEF00DB6E85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEC3DD2BD22AD1720FE48C14 /* Pods-USA AirForce.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3B2NSP94HF;
+				INFOPLIST_FILE = "USA AirForce/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.allebone.USAFDA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		854655471ED18AEF00DB6E85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 537F7EEB258654529FAE9E8F /* Pods-USA AirForce.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3B2NSP94HF;
+				INFOPLIST_FILE = "USA AirForce/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.allebone.USAFDA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8546552E1ED18AEE00DB6E85 /* Build configuration list for PBXProject "USA AirForce" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				854655431ED18AEF00DB6E85 /* Debug */,
+				854655441ED18AEF00DB6E85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		854655451ED18AEF00DB6E85 /* Build configuration list for PBXNativeTarget "USA AirForce" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				854655461ED18AEF00DB6E85 /* Debug */,
+				854655471ED18AEF00DB6E85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8546552B1ED18AEE00DB6E85 /* Project object */;
+}

@@ -1,0 +1,15 @@
+PODS:
+  - SlideMenuControllerSwift (3.0.1)
+  - SVProgressHUD (2.1.2)
+
+DEPENDENCIES:
+  - SlideMenuControllerSwift
+  - SVProgressHUD
+
+SPEC CHECKSUMS:
+  SlideMenuControllerSwift: 9a163b16d54afab734add42858cba7ef7c307755
+  SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
+
+PODFILE CHECKSUM: 685b811c5c3314b18a7a8c119ffa4366acf96315
+
+COCOAPODS: 1.2.0.beta.3
