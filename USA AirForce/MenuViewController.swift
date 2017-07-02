@@ -43,6 +43,7 @@ class MenuViewController: UIViewController,UITableViewDataSource,UITableViewDele
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         slideMenuController()?.closeLeft()
         let vc = self.storyboard?.instantiateViewController(withIdentifier: SegueIdentifier.DetailViewController) as! DetailViewController
+        
         vc.subContent = menuTitles[indexPath.row].content
         vc.title =  menuTitles[indexPath.row].title
 //        vc.isSubtitle = true
