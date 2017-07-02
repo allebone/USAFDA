@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "854655321ED18AEE00DB6E85"
-               BuildableName = "USA AirForce.app"
-               BlueprintName = "USA AirForce"
-               ReferencedContainer = "container:USA AirForce.xcodeproj">
+               BuildableName = "USAF DA.app"
+               BlueprintName = "USAF DA"
+               ReferencedContainer = "container:USAF DA.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "854655321ED18AEE00DB6E85"
-            BuildableName = "USA AirForce.app"
-            BlueprintName = "USA AirForce"
-            ReferencedContainer = "container:USA AirForce.xcodeproj">
+            BuildableName = "USAF DA.app"
+            BlueprintName = "USAF DA"
+            ReferencedContainer = "container:USAF DA.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "854655321ED18AEE00DB6E85"
-            BuildableName = "USA AirForce.app"
-            BlueprintName = "USA AirForce"
-            ReferencedContainer = "container:USA AirForce.xcodeproj">
+            BuildableName = "USAF DA.app"
+            BlueprintName = "USAF DA"
+            ReferencedContainer = "container:USAF DA.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "854655321ED18AEE00DB6E85"
-            BuildableName = "USA AirForce.app"
-            BlueprintName = "USA AirForce"
-            ReferencedContainer = "container:USA AirForce.xcodeproj">
+            BuildableName = "USAF DA.app"
+            BlueprintName = "USAF DA"
+            ReferencedContainer = "container:USAF DA.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

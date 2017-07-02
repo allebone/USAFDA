@@ -42,7 +42,7 @@
 		8541D9641ED3038500F4F119 /* ImageHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageHeader.swift; sourceTree = "<group>"; };
 		8541D9661ED3038E00F4F119 /* ImageDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageDetail.swift; sourceTree = "<group>"; };
 		8546381A1ED211FB003522A7 /* ProductModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
-		854655331ED18AEE00DB6E85 /* USA AirForce.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "USA AirForce.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		854655331ED18AEE00DB6E85 /* USAF DA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "USAF DA.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		854655361ED18AEE00DB6E85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		854655381ED18AEE00DB6E85 /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
 		8546553B1ED18AEE00DB6E85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -100,7 +100,7 @@
 		854655341ED18AEE00DB6E85 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				854655331ED18AEE00DB6E85 /* USA AirForce.app */,
+				854655331ED18AEE00DB6E85 /* USAF DA.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -168,9 +168,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		854655321ED18AEE00DB6E85 /* USA AirForce */ = {
+		854655321ED18AEE00DB6E85 /* USAF DA */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 854655451ED18AEF00DB6E85 /* Build configuration list for PBXNativeTarget "USA AirForce" */;
+			buildConfigurationList = 854655451ED18AEF00DB6E85 /* Build configuration list for PBXNativeTarget "USAF DA" */;
 			buildPhases = (
 				FC6A051CE3DB034D7AF217A3 /* [CP] Check Pods Manifest.lock */,
 				8546552F1ED18AEE00DB6E85 /* Sources */,
@@ -183,9 +183,9 @@
 			);
 			dependencies = (
 			);
-			name = "USA AirForce";
+			name = "USAF DA";
 			productName = "USA AirForce";
-			productReference = 854655331ED18AEE00DB6E85 /* USA AirForce.app */;
+			productReference = 854655331ED18AEE00DB6E85 /* USAF DA.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -205,7 +205,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8546552E1ED18AEE00DB6E85 /* Build configuration list for PBXProject "USA AirForce" */;
+			buildConfigurationList = 8546552E1ED18AEE00DB6E85 /* Build configuration list for PBXProject "USAF DA" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -218,7 +218,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				854655321ED18AEE00DB6E85 /* USA AirForce */,
+				854655321ED18AEE00DB6E85 /* USAF DA */,
 			);
 		};
 /* End PBXProject section */
@@ -459,7 +459,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8546552E1ED18AEE00DB6E85 /* Build configuration list for PBXProject "USA AirForce" */ = {
+		8546552E1ED18AEE00DB6E85 /* Build configuration list for PBXProject "USAF DA" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				854655431ED18AEF00DB6E85 /* Debug */,
@@ -468,7 +468,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		854655451ED18AEF00DB6E85 /* Build configuration list for PBXNativeTarget "USA AirForce" */ = {
+		854655451ED18AEF00DB6E85 /* Build configuration list for PBXNativeTarget "USAF DA" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				854655461ED18AEF00DB6E85 /* Debug */,
