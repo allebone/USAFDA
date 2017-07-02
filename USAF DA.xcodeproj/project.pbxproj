@@ -90,7 +90,7 @@
 		8546552A1ED18AEE00DB6E85 = {
 			isa = PBXGroup;
 			children = (
-				854655351ED18AEE00DB6E85 /* USA AirForce */,
+				854655351ED18AEE00DB6E85 /* USAF DA */,
 				854655341ED18AEE00DB6E85 /* Products */,
 				286E6EB84A0EDBAD87ACF26E /* Pods */,
 				5C99D615D381B53E9E75683D /* Frameworks */,
@@ -105,7 +105,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		854655351ED18AEE00DB6E85 /* USA AirForce */ = {
+		854655351ED18AEE00DB6E85 /* USAF DA */ = {
 			isa = PBXGroup;
 			children = (
 				854655531ED1BC5600DB6E85 /* Cells */,
@@ -116,6 +116,7 @@
 				8541D9581ED2E11400F4F119 /* uniform.json */,
 				854655481ED191DF00DB6E85 /* Supporting Files */,
 			);
+			name = "USAF DA";
 			path = "USA AirForce";
 			sourceTree = "<group>";
 		};
