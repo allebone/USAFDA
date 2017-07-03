@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4A7B799C0D5309E7A1315B5A /* Pods_USA_AirForce.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53589A07E508A6D98B4007D5 /* Pods_USA_AirForce.framework */; };
+		1225BCD19A43FE60774A1CE1 /* Pods_USAF_DA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDA4C9F49A1C2D7DF9EE9C24 /* Pods_USAF_DA.framework */; };
 		8541D9591ED2E11400F4F119 /* uniform.json in Resources */ = {isa = PBXBuildFile; fileRef = 8541D9581ED2E11400F4F119 /* uniform.json */; };
 		8541D95B1ED2FA9400F4F119 /* AppSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8541D95A1ED2FA9400F4F119 /* AppSession.swift */; };
 		8541D95D1ED3014600F4F119 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8541D95C1ED3014600F4F119 /* InfoViewController.swift */; };
@@ -32,8 +32,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		53589A07E508A6D98B4007D5 /* Pods_USA_AirForce.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_USA_AirForce.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		537F7EEB258654529FAE9E8F /* Pods-USA AirForce.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-USA AirForce.release.xcconfig"; path = "Pods/Target Support Files/Pods-USA AirForce/Pods-USA AirForce.release.xcconfig"; sourceTree = "<group>"; };
+		6A06C0A853A049E048D4E891 /* Pods-USAF DA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-USAF DA.debug.xcconfig"; path = "Pods/Target Support Files/Pods-USAF DA/Pods-USAF DA.debug.xcconfig"; sourceTree = "<group>"; };
 		8541D9581ED2E11400F4F119 /* uniform.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = uniform.json; sourceTree = "<group>"; };
 		8541D95A1ED2FA9400F4F119 /* AppSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppSession.swift; sourceTree = "<group>"; };
 		8541D95C1ED3014600F4F119 /* InfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
@@ -56,8 +55,9 @@
 		854655511ED1B95500DB6E85 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		854655541ED1BC6500DB6E85 /* ImageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageCell.xib; sourceTree = "<group>"; };
 		854655561ED1C33300DB6E85 /* ImageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
+		91E1617D02899452E6EBF198 /* Pods-USAF DA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-USAF DA.release.xcconfig"; path = "Pods/Target Support Files/Pods-USAF DA/Pods-USAF DA.release.xcconfig"; sourceTree = "<group>"; };
+		BDA4C9F49A1C2D7DF9EE9C24 /* Pods_USAF_DA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_USAF_DA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAB9DD351F09DF830013798B /* uniforms2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = uniforms2.json; sourceTree = "<group>"; };
-		DEC3DD2BD22AD1720FE48C14 /* Pods-USA AirForce.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-USA AirForce.debug.xcconfig"; path = "Pods/Target Support Files/Pods-USA AirForce/Pods-USA AirForce.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A7B799C0D5309E7A1315B5A /* Pods_USA_AirForce.framework in Frameworks */,
+				1225BCD19A43FE60774A1CE1 /* Pods_USAF_DA.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,8 +75,8 @@
 		286E6EB84A0EDBAD87ACF26E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				DEC3DD2BD22AD1720FE48C14 /* Pods-USA AirForce.debug.xcconfig */,
-				537F7EEB258654529FAE9E8F /* Pods-USA AirForce.release.xcconfig */,
+				6A06C0A853A049E048D4E891 /* Pods-USAF DA.debug.xcconfig */,
+				91E1617D02899452E6EBF198 /* Pods-USAF DA.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -84,7 +84,7 @@
 		5C99D615D381B53E9E75683D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				53589A07E508A6D98B4007D5 /* Pods_USA_AirForce.framework */,
+				BDA4C9F49A1C2D7DF9EE9C24 /* Pods_USAF_DA.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -258,7 +258,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-USA AirForce/Pods-USA AirForce-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-USAF DA/Pods-USAF DA-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		7E6515672572233C94E90BE0 /* [CP] Copy Pods Resources */ = {
@@ -273,7 +273,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-USA AirForce/Pods-USA AirForce-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-USAF DA/Pods-USAF DA-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FC6A051CE3DB034D7AF217A3 /* [CP] Check Pods Manifest.lock */ = {
@@ -437,7 +437,7 @@
 		};
 		854655461ED18AEF00DB6E85 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DEC3DD2BD22AD1720FE48C14 /* Pods-USA AirForce.debug.xcconfig */;
+			baseConfigurationReference = 6A06C0A853A049E048D4E891 /* Pods-USAF DA.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = JWGZP84BZY;
@@ -452,7 +452,7 @@
 		};
 		854655471ED18AEF00DB6E85 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 537F7EEB258654529FAE9E8F /* Pods-USA AirForce.release.xcconfig */;
+			baseConfigurationReference = 91E1617D02899452E6EBF198 /* Pods-USAF DA.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = JWGZP84BZY;

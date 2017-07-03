@@ -1,8 +1,9 @@
 # Uncomment the next line to define a global platform for your project
+project 'USAF DA.xcodeproj'
 platform :ios, '9.0'
 use_frameworks!
 
-target 'USA AirForce' do
+target 'USAF DA' do
     pod 'SlideMenuControllerSwift'
     pod 'SVProgressHUD'
     pod 'Alamofire', '~> 4.0.1'

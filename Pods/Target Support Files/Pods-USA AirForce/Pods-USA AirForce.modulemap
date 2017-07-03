@@ -1,6 +1,0 @@
-framework module Pods_USA_AirForce {
-  umbrella header "Pods-USA AirForce-umbrella.h"
-
-  export *
-  module * { export * }
-}
