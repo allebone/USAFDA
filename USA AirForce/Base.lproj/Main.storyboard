@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--Launch View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController storyboardIdentifier="LaunchController" id="BYZ-38-t0r" customClass="LaunchViewController" customModule="USA_AirForce" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LaunchController" id="BYZ-38-t0r" customClass="LaunchViewController" customModule="USAF_DA" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -29,7 +30,7 @@
         <!--Menu View Controller-->
         <scene sceneID="lue-SL-Iqu">
             <objects>
-                <viewController storyboardIdentifier="MenuController" id="wKd-b3-aFO" customClass="MenuViewController" customModule="USA_AirForce" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MenuController" id="wKd-b3-aFO" customClass="MenuViewController" customModule="USAF_DA" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Qna-Y3-zrt"/>
                         <viewControllerLayoutGuide type="bottom" id="dM0-ai-XkP"/>
@@ -86,7 +87,7 @@
         <!--Detail View Controller-->
         <scene sceneID="e6E-8y-KdT">
             <objects>
-                <viewController storyboardIdentifier="DetailController" id="EYR-Wq-HPU" customClass="DetailViewController" customModule="USA_AirForce" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="DetailController" id="EYR-Wq-HPU" customClass="DetailViewController" customModule="USAF_DA" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="QDb-kj-cFm"/>
                         <viewControllerLayoutGuide type="bottom" id="ntj-RJ-tHQ"/>
@@ -123,7 +124,7 @@
         <!--Info View Controller-->
         <scene sceneID="y2K-2p-v8W">
             <objects>
-                <viewController storyboardIdentifier="InfoController" id="fwG-Ap-owj" customClass="InfoViewController" customModule="USA_AirForce" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="InfoController" id="fwG-Ap-owj" customClass="InfoViewController" customModule="USAF_DA" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="6R1-xH-rSh"/>
                         <viewControllerLayoutGuide type="bottom" id="Cm2-hE-kTC"/>
@@ -160,7 +161,7 @@
         <!--Home View Controller-->
         <scene sceneID="Cpy-eI-amf">
             <objects>
-                <viewController storyboardIdentifier="HomeController" id="afl-FK-Jhu" customClass="HomeViewController" customModule="USA_AirForce" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HomeController" id="afl-FK-Jhu" customClass="HomeViewController" customModule="USAF_DA" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="4aS-iH-Hoo"/>
                         <viewControllerLayoutGuide type="bottom" id="4Km-H8-2Kj"/>
@@ -211,7 +212,7 @@
         <!--Image Detail View Controller-->
         <scene sceneID="P00-MX-ddF">
             <objects>
-                <viewController storyboardIdentifier="ImageDetailController" id="Amk-2H-BKw" customClass="ImageDetailViewController" customModule="USA_AirForce" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ImageDetailController" id="Amk-2H-BKw" customClass="ImageDetailViewController" customModule="USAF_DA" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="lfO-5D-u9q"/>
                         <viewControllerLayoutGuide type="bottom" id="nDt-8N-3KB"/>
@@ -226,32 +227,31 @@
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="CGu-j2-OiT">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                     </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jON-wx-hro">
+                                        <rect key="frame" x="299" y="26" width="68" height="88"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="26" id="wfA-xQ-iny"/>
+                                            <constraint firstAttribute="width" constant="33" id="xT7-be-436"/>
+                                        </constraints>
+                                        <state key="normal" title="X" image="cancel"/>
+                                        <connections>
+                                            <action selector="didTapOnClose:" destination="Amk-2H-BKw" eventType="touchUpInside" id="BLo-wC-ckL"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="CGu-j2-OiT" firstAttribute="leading" secondItem="B1b-lQ-trJ" secondAttribute="leading" id="9IN-v6-1gN"/>
                                     <constraint firstAttribute="trailing" secondItem="CGu-j2-OiT" secondAttribute="trailing" id="Huz-Io-3oY"/>
                                     <constraint firstItem="CGu-j2-OiT" firstAttribute="top" secondItem="B1b-lQ-trJ" secondAttribute="top" id="JY8-jL-IVw"/>
                                     <constraint firstAttribute="bottom" secondItem="CGu-j2-OiT" secondAttribute="bottom" id="UCZ-21-AXV"/>
+                                    <constraint firstAttribute="trailing" secondItem="jON-wx-hro" secondAttribute="trailing" constant="43" id="f17-zH-Wh1"/>
                                 </constraints>
                             </scrollView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jON-wx-hro">
-                                <rect key="frame" x="322" y="591" width="33" height="26"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="26" id="wfA-xQ-iny"/>
-                                    <constraint firstAttribute="width" constant="33" id="xT7-be-436"/>
-                                </constraints>
-                                <state key="normal" image="cancel"/>
-                                <connections>
-                                    <action selector="didTapOnClose:" destination="Amk-2H-BKw" eventType="touchUpInside" id="BLo-wC-ckL"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="nDt-8N-3KB" firstAttribute="top" secondItem="jON-wx-hro" secondAttribute="bottom" constant="50" id="0TW-hs-Vou"/>
                             <constraint firstItem="CGu-j2-OiT" firstAttribute="height" secondItem="REn-5Y-279" secondAttribute="height" id="3QM-Z7-OEe"/>
                             <constraint firstItem="CGu-j2-OiT" firstAttribute="width" secondItem="REn-5Y-279" secondAttribute="width" id="861-wp-exk"/>
-                            <constraint firstAttribute="trailing" secondItem="jON-wx-hro" secondAttribute="trailing" constant="20" id="Cfl-EG-dQX"/>
                             <constraint firstItem="B1b-lQ-trJ" firstAttribute="leading" secondItem="REn-5Y-279" secondAttribute="leading" id="GWT-In-GMr"/>
                             <constraint firstItem="B1b-lQ-trJ" firstAttribute="top" secondItem="REn-5Y-279" secondAttribute="top" id="Gt7-Uv-t1P"/>
                             <constraint firstItem="nDt-8N-3KB" firstAttribute="top" secondItem="B1b-lQ-trJ" secondAttribute="bottom" id="WyR-sL-y1p"/>
@@ -265,7 +265,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ICt-rX-WuQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4636" y="161"/>
+            <point key="canvasLocation" x="4636" y="160.56971514242881"/>
         </scene>
     </scenes>
     <resources>

@@ -1,9 +1,9 @@
 //
 //  DetailViewController.swift
-//  USA AirForce
+//  USAF DA
 //
-//  Created by Anuraag Jain on 21/05/17.
-//  Copyright © 2017 app. All rights reserved.
+//  Created by Bryan Allebone on 03/07/17.
+//  Copyright © 2017 kdidigital.com. All rights reserved.
 //
 
 import UIKit
