@@ -28,6 +28,7 @@
 		854655521ED1B95500DB6E85 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854655511ED1B95500DB6E85 /* DetailViewController.swift */; };
 		854655551ED1BC6500DB6E85 /* ImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 854655541ED1BC6500DB6E85 /* ImageCell.xib */; };
 		854655571ED1C33300DB6E85 /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854655561ED1C33300DB6E85 /* ImageCell.swift */; };
+		CAB9DD361F09DF830013798B /* uniforms2.json in Resources */ = {isa = PBXBuildFile; fileRef = CAB9DD351F09DF830013798B /* uniforms2.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +56,7 @@
 		854655511ED1B95500DB6E85 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		854655541ED1BC6500DB6E85 /* ImageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageCell.xib; sourceTree = "<group>"; };
 		854655561ED1C33300DB6E85 /* ImageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
+		CAB9DD351F09DF830013798B /* uniforms2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = uniforms2.json; sourceTree = "<group>"; };
 		DEC3DD2BD22AD1720FE48C14 /* Pods-USA AirForce.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-USA AirForce.debug.xcconfig"; path = "Pods/Target Support Files/Pods-USA AirForce/Pods-USA AirForce.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -114,6 +116,7 @@
 				854655361ED18AEE00DB6E85 /* AppDelegate.swift */,
 				8546553A1ED18AEE00DB6E85 /* Main.storyboard */,
 				8541D9581ED2E11400F4F119 /* uniform.json */,
+				CAB9DD351F09DF830013798B /* uniforms2.json */,
 				854655481ED191DF00DB6E85 /* Supporting Files */,
 			);
 			path = "USA AirForce";
@@ -200,7 +203,7 @@
 				TargetAttributes = {
 					854655321ED18AEE00DB6E85 = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = 3B2NSP94HF;
+						DevelopmentTeam = JWGZP84BZY;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -231,6 +234,7 @@
 				854655411ED18AEE00DB6E85 /* LaunchScreen.storyboard in Resources */,
 				854655551ED1BC6500DB6E85 /* ImageCell.xib in Resources */,
 				8541D9631ED3036F00F4F119 /* ImageDetail.xib in Resources */,
+				CAB9DD361F09DF830013798B /* uniforms2.json in Resources */,
 				8541D9591ED2E11400F4F119 /* uniform.json in Resources */,
 				8546553E1ED18AEE00DB6E85 /* Assets.xcassets in Resources */,
 				8541D95F1ED301FB00F4F119 /* ImageHeader.xib in Resources */,
@@ -358,6 +362,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/**";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -378,6 +383,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = "$(SRCROOT) /**";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -409,6 +415,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/**";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -421,6 +428,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = "$(SRCROOT) /**";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -431,7 +439,7 @@
 			baseConfigurationReference = DEC3DD2BD22AD1720FE48C14 /* Pods-USA AirForce.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 3B2NSP94HF;
+				DEVELOPMENT_TEAM = JWGZP84BZY;
 				INFOPLIST_FILE = "USA AirForce/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -446,7 +454,7 @@
 			baseConfigurationReference = 537F7EEB258654529FAE9E8F /* Pods-USA AirForce.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 3B2NSP94HF;
+				DEVELOPMENT_TEAM = JWGZP84BZY;
 				INFOPLIST_FILE = "USA AirForce/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

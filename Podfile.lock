@@ -1,15 +1,32 @@
 PODS:
+  - Alamofire (4.0.1)
+  - AlamofireImage (3.1.0):
+    - Alamofire (~> 4.0)
+  - AlamofireNetworkActivityIndicator (2.0.1):
+    - Alamofire (~> 4.0)
+  - Decodable (0.5)
   - SlideMenuControllerSwift (3.0.1)
   - SVProgressHUD (2.1.2)
+  - SwiftyJSON (3.1.4)
 
 DEPENDENCIES:
+  - Alamofire (~> 4.0.1)
+  - AlamofireImage (~> 3.1)
+  - AlamofireNetworkActivityIndicator (~> 2.0.1)
+  - Decodable (~> 0.5)
   - SlideMenuControllerSwift
   - SVProgressHUD
+  - SwiftyJSON
 
 SPEC CHECKSUMS:
+  Alamofire: 7682d43245de14874acd142ec137b144aa1dd335
+  AlamofireImage: bb8c8351c51cb1633bb6be69b6dbbaff37ce65b7
+  AlamofireNetworkActivityIndicator: 3e55069ada3e1ff7703665156429eedcdfea0bc1
+  Decodable: 7c90acc68d357b71d0d6efc120faf9c53c644b7e
   SlideMenuControllerSwift: 9a163b16d54afab734add42858cba7ef7c307755
   SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
 
-PODFILE CHECKSUM: 685b811c5c3314b18a7a8c119ffa4366acf96315
+PODFILE CHECKSUM: b45310685e069531b15a779634f947b303d363c2
 
-COCOAPODS: 1.2.0.beta.3
+COCOAPODS: 1.1.0

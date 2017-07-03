@@ -7,42 +7,37 @@
 //
 
 import Foundation
-typealias JSON = [String:AnyObject]
-class ProductModel:NSObject{
-    var title:String?
-    var content = [DetailModel]()
+import Decodable
+
+class Section: Decodable {
+    var display: String
+    var description: String?
+    var subSections: [Section]?
     
-    class func loadContent() -> [ProductModel]{
-        var model = [ProductModel]()
-        let path = Bundle.main.url(forResource: "uniform", withExtension: "json")
+    required init(_ display: String, subSections: [Section]? = nil, description: String? = nil) {
+        self.display = display
+        self.subSections = subSections
+        self.description = description
+    }
+    
+    static func decode(_ j: Any) throws -> Self {
+        let section = self.init(try j => "display")
+        section.subSections = try j =>? "sections"
+        section.description = try j =>? "description"
+        return section
+    }
+    
+    class func loadContent() -> [Section]{
+        let path = Bundle.main.url(forResource: "uniforms2", withExtension: "json")
         do{
-            let jsonData = try Data(contentsOf: path!)
-            let jsonResult = try JSONSerialization.jsonObject(with: jsonData, options: [])
-            let jsonArray = jsonResult as? NSArray
-            for array in jsonArray!{
-                let object = ProductModel()
-                let array = array as? JSON
-                object.title = array?["type"] as? String
-                for content in array?["content"] as! NSArray{
-                    let content = content as? JSON
-                    let dObj = DetailModel()
-                    dObj.content = content?["content"] as? String
-                    dObj.header = content?["title"] as? String
-                    object.content.append(dObj)
-                }
-                model.append(object)
-            }
-            return model
+            let data = try Data(contentsOf: path!)
+            let json = try JSONSerialization.jsonObject(with: data, options: [])
+            let section = try [Section].decode(json)
+            return section
         }
         catch{
             print(error.localizedDescription)
-            return model
+            return []
         }
     }
 }
-
-class DetailModel:NSObject{
-    var content:String?
-    var header:String?
-}
-

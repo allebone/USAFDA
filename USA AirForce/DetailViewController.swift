@@ -12,7 +12,7 @@ class DetailViewController: UIViewController,UITableViewDataSource,UITableViewDe
 
     @IBOutlet weak var tableView: UITableView!
     
-    var subContent:[DetailModel]?
+    var mySection:Section?
     var isSubtitle:Bool?
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -43,28 +43,30 @@ class DetailViewController: UIViewController,UITableViewDataSource,UITableViewDe
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return subContent!.count
+        return mySection!.subSections?.count ?? 0
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         if isSubtitle == true {
             let cell = tableView.dequeueReusableCell(withIdentifier: "kCell", for: indexPath)
-            cell.textLabel?.text = subContent?[indexPath.row].header
+            cell.textLabel?.text = mySection?.subSections?[indexPath.row].display
             return cell
         }else{
             let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! ImageCell
-            cell.prodTitle.text = subContent?[indexPath.row].header
+            cell.prodTitle.text = mySection?.subSections?[indexPath.row].display
             return cell
         }
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let object = subContent?[indexPath.row]
-        let vc = self.storyboard?.instantiateViewController(withIdentifier: SegueIdentifier.InfoViewController) as! InfoViewController
-        vc.detailObj = object
-        vc.title = object?.header
-        self.navigationController?.pushViewController(vc,animated:true)
+        if let object = mySection?.subSections?[indexPath.row] {
+            let vc = self.storyboard?.instantiateViewController(withIdentifier: SegueIdentifier.InfoViewController) as! InfoViewController
+            vc.detailObj = object
+            vc.title = object.display
+            self.navigationController?.pushViewController(vc,animated:true)
+        }
     }
+    
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         if isSubtitle == true{
             return 80

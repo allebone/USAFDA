@@ -10,7 +10,8 @@ import Foundation
 
 class AppSession:NSObject{
     static let shared = AppSession()
-    var uniformContent:[ProductModel]{
-        return ProductModel.loadContent()
+    var uniformContent:[Section]{
+        var s = Section.loadContent()
+        return s
     }
 }

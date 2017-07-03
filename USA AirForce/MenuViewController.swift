@@ -36,15 +36,15 @@ class MenuViewController: UIViewController,UITableViewDataSource,UITableViewDele
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
         cell.backgroundColor = UIColor(red: 21/255, green: 40/255, blue: 65/255, alpha: 1.0)
-        cell.textLabel?.text = menuTitles[indexPath.row].title
+        cell.textLabel?.text = menuTitles[indexPath.row].display
         cell.textLabel?.textColor = .white
         return cell
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         slideMenuController()?.closeLeft()
         let vc = self.storyboard?.instantiateViewController(withIdentifier: SegueIdentifier.DetailViewController) as! DetailViewController
-        vc.subContent = menuTitles[indexPath.row].content
-        vc.title =  menuTitles[indexPath.row].title
+        vc.mySection = menuTitles[indexPath.row]
+        vc.title =  menuTitles[indexPath.row].display
 //        vc.isSubtitle = true
         let navVC = self.slideMenuController()?.mainViewController as! UINavigationController
         navVC.pushViewController(vc, animated: true)

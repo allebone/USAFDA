@@ -1,0 +1,34 @@
+[{
+ "display": "Dress Uniforms",
+ "description": "dfdfdf",
+ "sections": [{
+              "display": "ENLISTED MESS DRESS",
+              "description": "",
+              "sections": [
+                           {
+                           "display": "GENERAL",
+                           "sections": [{"display": "Name tag and headgear is not worn."},
+                                        {"display": "Center all miniature medals between lapel and arm seam and midway between top shoulder seam and top button of jacket"},
+                                        {"display": "Center 4 inch sleeve chevrons halfway between shoulder seam and elbow bent at 90-degree angle"}]
+                           },
+                           {
+                           "display": "OCCUPATIONAL BADGES",
+                           "description": "Occupational badges reflect Air Force specialty; e.g. Logistics, Maintenance, Civil Engineer, Public Affairs. Members are highly encouraged to wear their current occupational badge.",
+                           "sections": [
+                                        {"display": "The total number of badges worn will not exceed four."},
+                                        {"display": "The commander's insignia does not count as one of the four badges."},
+                                        {"display": "Chaplain, aeronautical, space, cyberspace and missile operations badges are mandatory, others are optional."},
+                                        {"display": "Wear only midsize or regular size occupational badges, do not mix occupational badge sizes"},
+                                        {"display": "Center Chaplain, Aeronautical, Space and other occupational badges 1/2 inch above medals midway between shoulder and top button on wearer's left side NOTE: No more than two occupational badges are authorized for wear in this position"}]
+                           },
+                           {
+                           "display": "DUTY OR MISCELLANEOUS BADGES",
+                           "description": "Duty badges reflect position of assignment; e.g. HAF, Joint Staff, Recruiting Service, European Command Badge.",
+                           "sections": [
+                                        {"display": "Center duty or miscellaneous badge 1/2 inch below bottom row of medals or comparable position when no medals are authorized"},
+                                        {"display": "Center a second duty or miscellaneous badge on the wearer's right side in the same relative position as the duty or miscellaneous badge worn on the left"}
+                                        ]
+                           }
+              ]
+              }]
+ }]

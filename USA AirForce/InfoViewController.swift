@@ -12,7 +12,7 @@ class InfoViewController: UIViewController,UITableViewDataSource,UITableViewDele
    
     @IBOutlet weak var tableView: UITableView!
     
-    var detailObj:DetailModel!
+    var detailObj:Section!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -41,37 +41,52 @@ class InfoViewController: UIViewController,UITableViewDataSource,UITableViewDele
     }
     
     func numberOfSections(in tableView: UITableView) -> Int {
-        return 1
+        return (detailObj.subSections?.count ?? 0) + 1
     }
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 2
+        if section == 0 {
+            return 1
+        } else {
+            return detailObj.subSections?[section - 1].subSections?.count ?? 0
+        }
     }
+    
+    func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        if section == 0 {
+            return nil
+        } else {
+            return detailObj.subSections?[section - 1].display
+        }
+    }
+    
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        if indexPath.row == 0 {
+        if indexPath.section == 0 {
             let cell = tableView.dequeueReusableCell(withIdentifier: "ImageHeaderCell", for: indexPath) as! ImageHeader
             return cell
-        }else{
+        } else {
             let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! ImageDetail
-            cell.textLabel?.text = detailObj.content
+            cell.textLabel?.text = detailObj.subSections?[indexPath.section - 1].subSections?[indexPath.row].display
             cell.textLabel?.numberOfLines = 0
             cell.textLabel?.sizeToFit()
             return cell
         }
     }
+    
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        if indexPath.row == 0{
+        if indexPath.section == 0 {
             let vc = self.storyboard?.instantiateViewController(withIdentifier: SegueIdentifier.ImageDetailViewController) as! ImageDetailViewController
             self.present(vc, animated: true, completion: nil)
         }
     }
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        if indexPath.row == 0{
+        if indexPath.section == 0 {
             return UIScreen.main.bounds.height * 0.5
         }
         return UITableViewAutomaticDimension
     }
     func tableView(_ tableView: UITableView, estimatedHeightForRowAt indexPath: IndexPath) -> CGFloat {
-        if indexPath.row == 0{
+        if indexPath.section == 0 {
             return UIScreen.main.bounds.height * 0.5
         }
         return 100
